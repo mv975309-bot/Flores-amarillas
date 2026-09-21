@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Para vos, mi amor</title>
+    <meta
+      name="description"
+      content="Un regalo virtual para mi amor con un ramo de flores amarillas."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="bg-glow glow-1" aria-hidden="true"></div>
+      <div class="bg-glow glow-2" aria-hidden="true"></div>
+      <div class="bg-glow glow-3" aria-hidden="true"></div>
+
+      <div id="sparkleLayer" class="sparkle-layer" aria-hidden="true"></div>
+      <div id="petalLayer" class="petal-layer" aria-hidden="true"></div>
+      <div id="heartLayer" class="heart-layer" aria-hidden="true"></div>
+
+      <button
+        id="musicToggle"
+        class="music-toggle"
+        type="button"
+        aria-label="Activar o pausar música"
+        title="Música romántica"
+      >
+        <span class="music-icon">♫</span>
+      </button>
+
+      <main class="hero" aria-label="Regalo para mi novia">
+        <div class="bouquet-scene" aria-hidden="true">
+          <div id="bouquet" class="bouquet">
+            <div class="stem stem-1">
+              <span class="leaf leaf-left"></span>
+              <span class="leaf leaf-right"></span>
+              <div class="flower flower-1">
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="core"></span>
+              </div>
+            </div>
+
+            <div class="stem stem-2">
+              <span class="leaf leaf-left"></span>
+              <span class="leaf leaf-right"></span>
+              <div class="flower flower-2">
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="core"></span>
+              </div>
+            </div>
+
+            <div class="stem stem-3">
+              <span class="leaf leaf-left"></span>
+              <span class="leaf leaf-right"></span>
+              <div class="flower flower-3">
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="core"></span>
+              </div>
+            </div>
+
+            <div class="stem stem-4">
+              <span class="leaf leaf-left"></span>
+              <span class="leaf leaf-right"></span>
+              <div class="flower flower-4">
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="core"></span>
+              </div>
+            </div>
+
+            <div class="stem stem-5">
+              <span class="leaf leaf-left"></span>
+              <span class="leaf leaf-right"></span>
+              <div class="flower flower-5">
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="core"></span>
+              </div>
+            </div>
+
+            <div class="stem stem-6">
+              <span class="leaf leaf-left"></span>
+              <span class="leaf leaf-right"></span>
+              <div class="flower flower-6">
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="petal"></span>
+                <span class="core"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-block">
+          <h1>Para vos, mi amor <span aria-hidden="true">🌻</span></h1>
+          <p class="subtitle">
+            Porque a pesar de la distancia no queria dejarte sin tus flores amarillas.
+          </p>
+          <button id="openSurprise" class="surprise-btn" type="button">
+            🌻 Abrir mi sorpresa 🌻
+          </button>
+        </div>
+      </main>
+    </div>
+
+    <div id="messageCard" class="message-card" aria-hidden="true">
+      <div class="message-inner" role="dialog" aria-modal="true" aria-labelledby="messageTitle">
+        <h2 id="messageTitle">Un regalo para vos 💛</h2>
+        <p>
+         Te regalo estas flores porque quería tener un detalle lindo con vos. 💛
+         Y aunque sean virtuales, espero que cada vez que las veas te acuerdes de mí y de lo mucho que te quiero.
+         Ojalá siempre pueda sacarte una sonrisa, aunque sea con una boludez así. 🌻
+
+        </p>
+        <p class="ending">Te amo muchote. 🌻</p>
+        <button id="closeMessage" type="button">Cerrar 💛</button>
+      </div>
+    </div>
+
+    <audio id="music" preload="auto" loop>
+      <source src="Cancion.mp3" type="audio/mpeg" />
+    </audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
